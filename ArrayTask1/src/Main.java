@@ -11,6 +11,8 @@ public class Main {
 
         for (int i = 0; i < ints.length; i++) {
 
+
+            //For this exercise one FOR loop is sufficient.
             ints[i] = (int) ((Math.random() * 6) + 1);
             if(ints[i] == 1){
                 count1++;
