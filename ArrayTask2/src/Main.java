@@ -22,15 +22,14 @@ public class Main {
             SUM+=list[i];
         }
 
+
         System.out.println("average = " + (SUM/list.length));
-
         //swapping 2 index positions.
-
-
         System.out.println("\tAfter swapping the first two elements:");
         int temp = list[0];
         list[0] = list[1];
         list[1] = temp;
+
 
         for (int i = 0; i < list.length; i++) {
             System.out.print(list[i] + ", ");
@@ -44,20 +43,12 @@ public class Main {
             list[i] = list[list.length-1-i];
             list[list.length-1-i] = temp2;
         }
-
+        System.out.println("\tReversed Array:");
         //prints out the reversed list.
         for (int i = 0; i < list.length; i++) {
             System.out.print(list[i] + ", ");
         }
-
-
-
-
     }
-
-
-
-
 }
 
 
