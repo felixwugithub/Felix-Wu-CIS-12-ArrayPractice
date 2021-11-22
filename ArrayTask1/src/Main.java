@@ -11,19 +11,17 @@ public class Main {
 
         for (int i = 0; i < ints.length; i++) {
 
-
             //For this exercise one FOR loop is sufficient.
             ints[i] = (int) ((Math.random() * 6) + 1);
+            System.out.print(" ");
+            System.out.print(ints[i]);
+
             if(ints[i] == 1){
                 count1++;
             }
         }
+        System.out.println("");
         System.out.println("1 is found " + count1 + " time(s) in this array.");
-
-
-
-
-
 
 
     }
