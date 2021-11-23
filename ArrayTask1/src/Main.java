@@ -6,9 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         int count1 = 0;
-
         int[] ints = new int[20];
-
         for (int i = 0; i < ints.length; i++) {
 
             //For this exercise one FOR loop is sufficient.
@@ -22,7 +20,5 @@ public class Main {
         }
         System.out.println("");
         System.out.println("1 is found " + count1 + " time(s) in this array.");
-
-
     }
 }
